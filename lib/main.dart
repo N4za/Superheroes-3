@@ -52,8 +52,7 @@ class homePageState extends State<HomePage> {
     super.initState();
     audioPlayer = AudioPlayer();
     audioCache = AudioCache();
-    var loop = 1;
-
+ 
     setState(() {
       audioCache.play(audioname);
     });
