@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
         ),
         photoSize: 120,
         seconds: 5,
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.black,
         image: Image.network(
             'https://i.pinimg.com/originals/b3/10/38/b3103829f0d80bb1cec4407db593d20d.png'),
         navigateAfterSeconds: HomePage());
